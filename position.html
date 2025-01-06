@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 7 | Position</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Normalize CSS</a>
+        <a href="./reset.html">Reset CSS</a>
+        <a href="./display.html">Display / Box-sizing</a>
+        <a href="./float.html">Float / Clear</a>
+        <a href="./overflow.html">Overflow</a>
+        <a href="./position.html">Position</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Position</h1>
+        <hr>
+        <p>Практика з Position</p>
+      </section>
+
+      <section style="position: relative;">
+        <h2>Tag <code>&lt;div&gt;</code></h2>
+        <div style="position: static;"><code>&lt;div static&gt;</code></div>
+        <div style="position: relative; left: 32px; top: 8px"><code>&lt;div relative&gt;</code></div>
+        <div style="position: absolute; bottom: 0; left: 16px;"><code>&lt;div absolute&gt;</code></div>
+      </section>
+
+      <section style="position: relative; min-height: 992px;">
+        <h2>Tag <code>&lt;span&gt;</code></h2>
+        <span style="position: sticky; top: 32px;"><code>&lt;span sticky&gt;</code></span>
+        <span style="position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%);"><code>&lt;span fixed&gt;</code></span>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

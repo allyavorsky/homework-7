@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 7 | Normalize CSS</title>
+    <title>Homework 7 | display & box-sizing</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
     <link rel="stylesheet" href="style.css" />
@@ -23,24 +23,23 @@
 
     <main>
       <section>
-        <h1>Normalize.css</h1>
-        <p>Стилі на сторінці нормалізовано з використанням <a href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" target="_blank" rel="noopener noreferrer">normalize.css</a></p>
+        <h1>Display / Box-sizing</h1>
         <hr>
-        <p>При використанні normalize.css стандартні стилі браузера коригуються для забезпечення консистентності між різними браузерами, зберігаючи корисні дефолтні стилі елементів.</p>
+        <p>Застосування різних значеннь для властивості display</p>
       </section>
 
       <section>
         <h2>Tag <code>&lt;div&gt;</code></h2>
-        <div><code>&lt;div&gt;</code></div>
-        <div><code>&lt;div&gt;</code></div>
-        <div><code>&lt;div&gt;</code></div>
+        <div style="display: inline;"><code>&lt;div inline&gt;</code></div>
+        <div style="display: inline-flex;"><code>&lt;div inline-flex&gt;</code></div>
+        <div style="display: flex;"><code>&lt;div flex&gt;</code></div>
       </section>
 
       <section>
         <h2>Tag <code>&lt;span&gt;</code></h2>
-        <span><code>&lt;span&gt;</code></span>
-        <span><code>&lt;span&gt;</code></span>
-        <span><code>&lt;span&gt;</code></span>
+        <span><code>&lt;span inline&gt;</code></span>
+        <span style="display: inline-flex;"><code>&lt;span inline-flex&gt;</code></span>
+        <span style="display: block;"><code>&lt;span block&gt;</code></span>
       </section>
     </main>
 
